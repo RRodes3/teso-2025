@@ -1,0 +1,8 @@
+# =======================================
+# Archivos a omitir en el repositorio
+# =======================================
+
+node_modules/
+vendor/
+*.log
+.env

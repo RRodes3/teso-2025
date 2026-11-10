@@ -1,0 +1,183 @@
+/* iCheck plugin Flat skin, blue
+----------------------------------- */
+.icheckbox_flat-blue,
+.iradio_flat-blue {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_flat-blue {
+    background-position: 0 0;
+}
+    .icheckbox_flat-blue.checked {
+        background-position: -22px 0;
+    }
+    .icheckbox_flat-blue.disabled {
+        background-position: -44px 0;
+        cursor: default;
+    }
+    .icheckbox_flat-blue.checked.disabled {
+        background-position: -66px 0;
+    }
+
+.iradio_flat-blue {
+    background-position: -88px 0;
+}
+    .iradio_flat-blue.checked {
+        background-position: -110px 0;
+    }
+    .iradio_flat-blue.disabled {
+        background-position: -132px 0;
+        cursor: default;
+    }
+    .iradio_flat-blue.checked.disabled {
+        background-position: -154px 0;
+    }
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_flat-blue,
+    .iradio_flat-blue {
+        background-image: url(blue@2x.png);
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px;
+    }
+}
+.titulotabla{
+	/*	
+background-color: #ffffff;
+border: 2px solid #999999;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#B62025', endColorstr = '#971608');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#222d32', endColorstr = '#222d32')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #222d32, #222d32);
+background-image: -ms-linear-gradient(top, #222d32, #222d32);
+background-image: -o-linear-gradient(top, #222d32, #222d32);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#222d32), to(#222d32));
+background-image: -webkit-linear-gradient(top, #222d32, #222d32);
+background-image: linear-gradient(top, #222d32, #222d32);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+
+
+color:#FFF
+		}.filapar{
+			background-color: #FFD2D2;
+/*font-weight: bold;
+font-style: italic;
+text-align:center
+*/		}
+		.filaimpar{
+			background-color: #FFE8E8;
+/*font-weight: bold;
+font-style: italic;
+text-align:center*/
+		}
+		.art-error{
+			text-align:center;
+	color: #AE255B;
+	border:#900;
+	background-color: #FFF;
+	font-size:12px;
+		}
+		
+select{
+	background: transparent;
+	background-position: 280px center;
+    background-repeat: no-repeat;
+   	padding: 5px;
+   	font-size: 14px;
+   	border: 0; 
+   	border-radius: 3px;
+   -webkit-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+select:hover{
+	background-color: #ddd;
+}
+
+input[type=search] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    height: 30px;
+    
+    
+}
+.modal-header {
+	background-color: #051e52;
+	}
+#myModalLabel {
+	color: #F0F0F0;
+	}
+    .art-postheader
+{
+   
+   margin: 3px ; 
+}
+.centrar
+		{
+			text-align:center;
+		}
+		.derecha
+		{
+			text-align:right
+		}
+		
+<!--		Para imagen modal-->
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -50px;
+    
+    z-index:1032;
+}
+ 
+@media print{
+.box{
+	border-top:0px !important
+	
+}
+.content{
+	padding-top:0px !important
+}
+
+.titulotabla{
+	background-color:#B7B7B7 !important;
+color:#000000 !important;
+}
+@page{
+   margin: 0;
+}
+
+}
+
+ 
